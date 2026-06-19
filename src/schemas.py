@@ -11,5 +11,4 @@ class PredictionResponse(BaseModel):
     # Le label retourné est contraint à 3 valeurs possibles
     label: Literal["POSITIVE", "NEGATIVE", "NEUTRAL"]
     score: float  # Score de confiance entre 0.0 et 1.0
-    text: str  # Texte original retourné pour traçabilité
-
+    text: str  # Texte original retourné pour traçabilite
